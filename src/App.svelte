@@ -252,7 +252,9 @@
 <div class="flex flex-col items-center w-full py-10">
 	<header>
 		<h1 class="text-4xl font-bold text-white">
-			Svelte + Felte = <span class="text-red-500">❤️</span>
+			<a href="https://svelte.dev/" class="text-white"> Svelte </a> +
+			<a href="https://felte.dev/" class="text-white"> Felte </a>
+			= <span class="text-red-500">❤️</span>
 		</h1>
 	</header>
 	<main
@@ -937,7 +939,7 @@
 			<a
 				target="_blank"
 				rel="noopener"
-				class="text-white"
+				class="font-semibold text-purple-400"
 				href="https://www.derpycoder.com">
 				DerpyCoder
 			</a>
@@ -945,7 +947,7 @@
 			<a
 				target="_blank"
 				rel="noopener"
-				class="text-white"
+				class="font-semibold text-yellow-400"
 				href="https://www.quillerbee.com">
 				QuillerBee
 			</a>
