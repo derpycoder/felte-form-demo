@@ -785,6 +785,9 @@
 							class="text-[#fc0] ml-1 -mt-0.5">
 							<use xlink:href="#annotation"></use>
 						</svg>
+						<i class="ml-1 text-gray-400">
+							- Optional
+						</i>
 					</label>
 					<div
 						data-felte-reporter-tippy-for="flair"

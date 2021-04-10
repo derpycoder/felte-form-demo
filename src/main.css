@@ -571,6 +571,11 @@ a:hover::after, a:focus::after {
 	border-right-color: #fc0;
 }
 
+b {
+	display: flex;
+	justify-content: center;
+}
+
 /* http://jsfiddle.net/PhilQ/caob79u5/ */
 
 /* https://codepen.io/simoncoudeville/pen/LyCda */
