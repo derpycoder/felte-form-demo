@@ -15,6 +15,7 @@ export default defineConfig(({ mode }) => {
 		optimizeDeps: {
 			exclude: ["@roxi/routify"],
 		},
+		base: "/felte-form-demo/",
 		build: {
 			minify: isProduction,
 			brotliSize: false, // To Speed Up Build
