@@ -207,21 +207,8 @@
 		onSubmit: (values) => {
 			const payload = validateSchema.cast(pickBy(values));
 
-			payload.tags = payload.tags?.map((val) => ({ name: val }));
-			payload.location.cities = payload.location.cities?.map((val) => ({
-				name: val,
-			}));
-
 			payload.created = new Date().toISOString();
 			payload.status = status.Active;
-
-			payload.category = {
-				name: payload.category,
-			};
-
-			payload.company = {
-				email: "abhijit.kar@quillerbee.com",
-			};
 
 			console.log(payload);
 		},
