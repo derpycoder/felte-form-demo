@@ -252,8 +252,21 @@
 <div class="flex flex-col items-center w-full py-10">
 	<header>
 		<h1 class="text-4xl font-bold text-white">
-			<a href="https://svelte.dev/" class="text-white"> Svelte </a> +
-			<a href="https://felte.dev/" class="text-white"> Felte </a>
+			<a
+				href="https://svelte.dev/"
+				class="text-white"
+				target="_blank"
+				rel="noopener">
+				Svelte
+			</a>
+			+
+			<a
+				href="https://felte.dev/"
+				class="text-white"
+				target="_blank"
+				rel="noopener">
+				Felte
+			</a>
 			= <span class="text-red-500">❤️</span>
 		</h1>
 	</header>
