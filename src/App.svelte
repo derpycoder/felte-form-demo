@@ -249,8 +249,13 @@
 	}
 </style>
 
-<main class="flex flex-col items-center w-full">
-	<div
+<div class="flex flex-col items-center w-full py-10">
+	<header>
+		<h1 class="text-4xl font-bold text-white">
+			Svelte + Felte = <span class="text-red-500">❤️</span>
+		</h1>
+	</header>
+	<main
 		class="flex flex-col w-11/12 m-10 text-left items-left sm:w-10/12 md:w-9/12 lg:w-8/12">
 		<form
 			use:form
@@ -925,5 +930,28 @@
 				</button>
 			</div>
 		</form>
-	</div>
-</main>
+	</main>
+	<footer>
+		<p class="text-white">
+			Made with <span class="text-red-500">❤️</span> by
+			<a
+				target="_blank"
+				rel="noopener"
+				class="text-white"
+				href="https://www.derpycoder.com">
+				DerpyCoder
+			</a>
+			for
+			<a
+				target="_blank"
+				rel="noopener"
+				class="text-white"
+				href="https://www.quillerbee.com">
+				QuillerBee
+			</a>
+			<svg class="inline w-10 h-10 py-2">
+				<use xlink:href="#logo"></use>
+			</svg>
+		</p>
+	</footer>
+</div>
