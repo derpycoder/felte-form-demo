@@ -12,9 +12,6 @@ export default defineConfig(({ mode }) => {
 			alias: aliases,
 		},
 		plugins: [svelte()],
-		optimizeDeps: {
-			exclude: ["@roxi/routify"],
-		},
 		base: "/felte-form-demo/",
 		build: {
 			minify: isProduction,
