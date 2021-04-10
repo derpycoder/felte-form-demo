@@ -496,7 +496,7 @@
 						<div
 							data-felte-reporter-tippy-for="countries"
 							aria-labelledby="countries-label"
-							class="{`grid grid-flow-row gap-2 pointer-events-auto rounded-md shadow-sm mt-1 sm:text-sm
+							class="{`pointer-events-auto rounded-md shadow-sm mt-1 sm:text-sm
 						${
 							$errors.location.countries
 								? 'border-red-500 ring-2 ring-red-500 focus:ring-red-500 focus:border-red-500'
@@ -534,7 +534,7 @@
 						<div
 							data-felte-reporter-tippy-for="cities"
 							aria-labelledby="cities-label"
-							class="{`grid grid-flow-row gap-2 pointer-events-auto rounded-md shadow-sm mt-1 sm:text-sm
+							class="{`pointer-events-auto rounded-md shadow-sm mt-1 sm:text-sm
 					${
 						$errors.location.cities
 							? 'border-red-500 ring-2 ring-red-500 focus:ring-red-500 focus:border-red-500'
@@ -643,7 +643,7 @@
 					<div
 						data-felte-reporter-tippy-for="tags"
 						aria-labelledby="tags-label"
-						class="{`grid grid-flow-row gap-2 pointer-events-auto rounded-md shadow-sm mt-1 sm:text-sm
+						class="{`pointer-events-auto rounded-md shadow-sm mt-1 sm:text-sm
 				${
 					$errors.tags
 						? 'border-red-500 ring-2 ring-red-500 focus:ring-red-500 focus:border-red-500'
@@ -691,7 +691,7 @@
 					<div
 						aria-labelledby="category-label"
 						data-felte-reporter-tippy-for="category"
-						class="{`grid grid-flow-row gap-2 pointer-events-auto rounded-md shadow-sm mt-1 sm:text-sm
+						class="{`pointer-events-auto rounded-md shadow-sm mt-1 sm:text-sm
 				${
 					$errors.category
 						? 'border-red-500 ring-2 ring-red-500 focus:ring-red-500 focus:border-red-500'
@@ -718,7 +718,7 @@
 						for="type"
 						id="type-label"
 						data-felte-reporter-tippy-trigger-for="type"
-						class="inline-flex items-center text-sm font-medium text-gray-300 cursor-pointer focus:outline-none"
+						class="inline-flex items-center text-sm font-medium text-gray-300 truncate cursor-pointer focus:outline-none"
 						use:tippy="{{
 							...commonTippyConfig,
 							content: `
@@ -740,7 +740,7 @@
 					<div
 						aria-labelledby="type-label"
 						data-felte-reporter-tippy-for="type"
-						class="{`grid grid-flow-row gap-2 pointer-events-auto rounded-md shadow-sm mt-1 sm:text-sm
+						class="{`pointer-events-auto rounded-md shadow-sm mt-1 sm:text-sm
 				${
 					$errors.type
 						? 'border-red-500 ring-2 ring-red-500 focus:ring-red-500 focus:border-red-500'
@@ -789,7 +789,7 @@
 					<div
 						data-felte-reporter-tippy-for="flair"
 						aria-labelledby="flair-label"
-						class="grid grid-flow-row gap-2 mt-1">
+						class="mt-1">
 						<select
 							id="flair"
 							name="flair"
